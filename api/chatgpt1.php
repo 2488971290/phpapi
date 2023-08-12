@@ -5,7 +5,7 @@
 //连续对话就：http://域名/chatgpt_api.php?sys=你好，我是一个无所不知的学者&msg=我知道了
 //输出的是json格式的内容，自行解析回复内容
 // 定义您的API密钥，模型名称和消息列表
-$api_key = "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";
+$api_key = "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";
 $model = "gpt-3";
 $messages = [
   ["role" => "system", "content" => $_GET["sys"]], // 假设用户通过get方法提交了system_input参数
