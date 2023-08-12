@@ -19,7 +19,7 @@ $data = json_encode(["model" => $model, "messages" => $messages]);
 $ch = curl_init();
 
 // 设置curl选项
-curl_setopt($ch, CURLOPT_URL, "https://api.openai.com/v1/completions");
+curl_setopt($ch, CURLOPT_URL, "https://api.openai.com/v1/chat/completions");
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_HTTPHEADER, [
   "Content-Type: application/json",
