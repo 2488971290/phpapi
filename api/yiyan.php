@@ -1,5 +1,5 @@
 <?php
-$txt='wenben/yan.txt';
+$txt='wenben/yiyan.txt';
 $a=file($txt);
 $b=count($a);
 $rand=rand(0,$b);
