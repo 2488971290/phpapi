@@ -1,5 +1,5 @@
 <?php
-$txt='wenben/yiyan.txt';
+$txt='https://api.yan926.link/api/wenben/yiyan.txt';
 $a=file($txt);
 $b=count($a);
 $rand=rand(0,$b);
